@@ -1,0 +1,22 @@
+//armstrong numbers in the given range.
+#include<stdio.h>
+int main()
+{
+    int sum=0,i,t,s,e,k;
+    scanf("%d %d",&s,&e);
+    for(k=s;k<=e;k++)
+    {
+        sum=i=0;
+        t=k;
+    while(t!=0)
+    {
+        i=t%10;
+        sum=sum+(i*i*i);
+        t=t/10;
+
+    }
+    if(k==sum)
+        printf("%d ",sum);
+        t=0;
+    }
+}
